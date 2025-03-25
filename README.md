@@ -1,6 +1,7 @@
 # 🥚 Receita de Omelete Simples 🍳
 
 Este repositório contém uma página web responsiva desenvolvida em HTML e CSS, apresentando uma receita de omelete simples.
+#### 📌 Link do projeto: https://luizf-devdias.github.io/pagina-de-receita/
 
 ## 🚀 Tecnologias Utilizadas
 

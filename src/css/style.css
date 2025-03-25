@@ -1,0 +1,184 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=Young+Serif&display=swap');
+
+html {
+    scrollbar-width: none;
+}
+
+body {
+    font-size: 16px;
+    background-color: hsl(30, 54%, 90%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 100px;
+    padding: 20px;
+    max-width: 1440px;
+}
+
+.container {
+    background-color: white;
+    width: 700px;
+    height: 100%;
+    padding: 25px 25px 15px 25px;
+    border-radius: 20px;
+}
+
+.container .informacoes-principais {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 25px;
+}
+
+.container .informacoes-principais img {
+    border-radius: 15px;
+}
+
+.container .informacoes-principais h1 {
+    font-family: 'young serif';
+    font-size: 35px;
+    font-weight: 400;
+} 
+
+.container .informacoes-principais p {
+    font-family: 'outfit';
+    font-size: 18px;
+}
+
+.container .tempo-preparacao {
+    font-family: 'outfit';
+    background-color: hsl(30, 37%, 93%);
+    padding: 25px;
+    border-radius: 10px;
+}
+
+.container .tempo-preparacao h4 {
+    font-size: 20px;
+    color: hsl(332, 51%, 32%);
+    margin-bottom: 20px;
+}
+
+.container .tempo-preparacao ul {
+    padding-left: 25px;
+}
+
+.container .tempo-preparacao li {
+    margin-top: 10px;
+    font-size: 18px;
+}
+
+.container .ingredientes {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 15px;
+}
+
+.container .ingredientes h2 {
+    font-family: 'young serif';
+    font-weight: 400;
+    font-size: 30px;
+    color: hsl(14, 45%, 36%);
+    margin-top: 25px;
+}
+
+.container .ingredientes ul {
+    padding: 0 0 25px 25px;
+    font-family: 'outfit';
+}
+
+.container .ingredientes li {
+    margin-top: 5px;
+    font-size: 18px;
+}
+
+.container .modo-preparo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 25px;
+}
+
+.container .modo-preparo h2 {
+    font-family: 'young serif';
+    font-weight: 400;
+    font-size: 30px;
+    color: hsl(14, 45%, 36%);
+    margin-top: 25px;
+}
+
+.container .modo-preparo ol{
+    padding: 0 0 15px 25px;
+    font-family: 'outfit';
+}
+
+.container .modo-preparo li {
+    margin-top: 12px;
+    font-size: 18px;
+    list-style-position: outside;
+    padding-left: 18px;
+}
+
+ol li::marker{
+    color: hsl(14, 45%, 36%);
+    font-weight: bold;
+}
+
+.container .informacoes-nutricionais {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 15px;
+}
+
+.container .informacoes-nutricionais h2 {
+    font-family: 'young serif';
+    font-weight: 400;
+    font-size: 30px;
+    color: hsl(14, 45%, 36%);
+    margin-top: 25px;
+}
+
+.container .informacoes-nutricionais p {
+    font-family: 'outfit';
+    font-size: 18px;
+}
+
+.container .tabela-nutricional {
+    font-family: 'outfit';
+    list-style-type: none;
+}
+
+.container .tabela-nutricional li {
+    display: flex;
+    justify-content: space-between;
+    padding: 5px 25px;
+    margin: 15px 0;
+    font-size: 18px;
+}
+
+.container .tabela-nutricional strong {
+    color: brown;
+    min-width: 250px;
+}
+
+hr { 
+    border: none;
+    height: 0.5px;
+    background-color: rgb(185, 181, 181);
+}
+
+@media(max-width: 700px) {
+    .container {
+        width: 375px;
+        height: 100%;
+    }
+
+    .container .tabela-nutricional strong {
+        min-width: 75px;
+    }
+
+    
+}
+
